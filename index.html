@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" id="favicon" href="https://static.tacdn.com/favicon.ico?v2" type="image/x-icon">
+    <link href="https://static.tacdn.com/css2/webfonts/TripSans/TripSans-VF.woff2?v1.002" rel="preload" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/travel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Tripadvisor</title>
+</head>
+<body>
+    <div class="travel">
+        <div class="travel-header"  >
+            <div class="grid flex">
+                <a class="logo" href="#body">
+                    <img src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg" alt="">
+                </a>
+                <div class="navbar">
+                    <ul class="navbar-list">
+                        
+                        <li class="navbar-item btn pc-t1">
+                            <i class="navbar-item-icon fa fa-pencil " aria-hidden="true"></i>
+                            <span class="pc-t1">Review</span>
+                        </li>
+                        <li class="navbar-item btn pc-t1">
+                            <i class="navbar-item-icon fa fa-heart-o" aria-hidden="true"></i>
+                           <span class="pc-t1"> Trips</span>
+                        </li>
+                        <li class="navbar-item btn pc-t1">
+                            <i class="navbar-item-icon fa fa-bell-o" aria-hidden="true"></i>
+                            <span class="pc-t1"> Alert</span>
+                        </li>
+                        <input type="checkbox" name="" id="login">
+                        <li class="navbar-item btn pc-t">
+                            <img src="https://cdn-icons-png.flaticon.com/128/622/622669.png" alt="">
+                        </li>
+                        <li class="navbar-item btn pc-t4">
+                            <img src="https://cdn-icons-png.flaticon.com/128/1828/1828859.png" alt="">
+                        </li>
+                        <li class="navbar-item pc-t3">
+                            <label for="login" class="btn-login">Sign in</label>
+                        </li>
+                        <label class="overlay" for="login"></label>
+                        <div class="login-social">
+                            <label class="icon-close" for="login">
+                                <img src="assest/xmark-solid.svg" alt="">
+                            </label>
+                            <img class="login-icon" src="assest/logotravel.svg" alt="">
+                            <p class="login-title">Sign in to unlock the best of Tripadvisor.</p>
+                            <div class="login-lk">
+                                <div class="login-network">
+                                    <img src="https://static.tacdn.com/img2/google/G_color_40x40.png" alt="">
+                                    <span>Continue with Google</span>
+                                </div>
+                                <div class="login-network">
+                                    <img src="https://static.tacdn.com/img2/facebook/icn-FB2.png" alt="">
+                                    <span>Continue with Facebook</span>
+                                </div>
+                                <div class="login-network">
+                                    <img src="assest/envelope-solid.svg" alt="">
+                                    <span>Continue with Gmail</span>
+                                </div>
+                            </div>
+                            <p class="login-mes">By proceeding, you agree to our Terms of Use and confirm you have read our Privacy and Cookie Statement.</p>
+                            <p class="login-mes">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+                        </div>
+                        
+                        <li class="btn navbar-item pc-t pc-t3">
+                            <img src="https://cdn-icons-png.flaticon.com/128/2121/2121815.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="travel-body" id="body">
+            <div class="grid">
+                <div class="travel-option">
+                    <ul class="travel-option-list">
+                        <li class="travel-option-item">
+                            <span class="travel-option-item-mes"> Hotels</span>
+                            <img src="https://cdn-icons-png.flaticon.com/128/3159/3159436.png" class="travel-option-img" alt="img">
+                        </li>
+                        <li class="travel-option-item">
+                            <span class="travel-option-item-mes">  Vacation Rentals</span>
+                            <img src="https://cdn-icons-png.flaticon.com/128/8035/8035104.png" class="travel-option-img" alt="img">
+
+                        </li>
+                        <li class="travel-option-item">
+                            <span class="travel-option-item-mes">     Thing to Do</span>
+                            <img src="https://cdn-icons-png.flaticon.com/128/6881/6881843.png" class="travel-option-img" alt="img">
+
+                        </li>
+                        <li class="travel-option-item">
+                            <span class="travel-option-item-mes">  Restaurants</span>
+                            <img src="https://cdn-icons-png.flaticon.com/128/685/685352.png" class="travel-option-img" alt="img">
+                        </li>
+                        <li class="travel-option-item">
+                            <span class="travel-option-item-mes">  Travel Forums</span>
+                            <img src="https://cdn-icons-png.flaticon.com/128/1370/1370907.png" class="travel-option-img" alt="img">
+
+                        </li>
+                        <li class="travel-option-item">
+                            <span class="travel-option-item-mes"> More</span>
+                            <img src="assest/more.png" class="travel-option-img" alt="img">
+                        </li>
+                    </ul>
+                </div>
+                <div class="travel-search">
+                    <input type="checkbox" name="" id="travel-search-input-id" >
+                    <label for="travel-search-input-id" class="travel-search-search">
+                        <img class="travel-search-img" src="https://cdn-icons-png.flaticon.com/128/622/622669.png" alt="">
+                        <input class="travel-search-input"  type="text" placeholder="Where to ?">
+                        <div class="overlay overlay-search"></div>
+                        <div class="travel-search-history">
+                            <ul class="travel-search-list">
+                                <li class="travel-search-item">
+                                    <div class="travel-search-item-img">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/6378/6378685.png" alt="" >
+                                    </div>
+                                    <span>Nearby</span>
+                                </li>
+                                <p class="travel-hitory-mes">RECENTLY VIEWED</p>
+                                <li class="travel-search-item">
+                                    <div class="travel-search-item-img">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/684/684809.png" alt="" >
+                                    </div>
+                                    <span>
+                                        <p>Maui</p>
+                                        <p class="travel-search-title">Hawaii, United states</p>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </label>
+                </div>
+                <div class="travel-his">
+                    <p class="travel-his-mes">Your recent searches</p>
+                    <div class="travel-option-item btn-add">
+                        <img src="https://cdn-icons-png.flaticon.com/128/684/684809.png" class="travel-option-img travel-option-img-1" aria-hidden="true"></img>
+                        <div class="travel-address">
+                            <span class="travel-address-mes1">Maui</span>
+                            <span class="travel-address-mes">Hawaii</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trip-address">
+                <div class="grid">
+                    <p class="trip-mes">Top destinations for your next vacation</p>
+                    <p class="trip-mes-til">Collections of our best bookable experiences</p>
+                    <div class="trip-add">
+                        <div class="trip-add-item flex1">
+                            <div class="trip-img ">
+                                <img class="trip-img1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/15/57/ff/caption.jpg?w=300&h=-1&s=1" alt="">
+                                <div class="trip-img2-father">
+                                    <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                </div>
+                                <div class="address-trip">
+                                    Outdoors
+                                </div>
+                            </div>
+                            <div class="trip-img">
+                                <img class="trip-img1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/15/58/c1/caption.jpg?w=300&h=-1&s=1" alt="">
+                                <div class="trip-img2-father">
+                                    <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                </div>
+                                <div class="address-trip">
+                                    Food and drink
+                                </div>
+                            </div>
+                            <div class="trip-img">
+                                <img class="trip-img1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/15/59/79/caption.jpg?w=300&h=-1&s=1" alt="">
+                                <div class="trip-img2-father">
+                                    <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                </div>
+                                <div class="address-trip">
+                                    Arts and culture
+                                </div>
+                            </div>
+                            <div class="trip-img">
+                                <img class="trip-img1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/15/5b/64/caption.jpg?w=300&h=-1&s=1" alt="">
+                                <div class="trip-img2-father">
+                                    <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                </div>
+                                <div class="address-trip">
+                                    By the water
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="travel-trip1">
+                <div class="grid">
+                    <p class="trip-mes">Get inspired for your next trip</p>
+                    <div class="trip-add trip-add-t">
+                        <div class="trip-add-item">
+                            <div class="trip-img">
+                                <img class="trip-img1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/03/fe/5c/caption.jpg?w=500&h=300&s=1" alt="">
+                                <div class="trip-img2-father">
+                                    <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                </div>
+                            </div>
+                            <div class="trip-mes1">
+                                <p class="trip-des">From <span class="trip-des1">Tripadvisor</span></p>
+                                <p class="trip-title">The best outdoor activity in every US state</p>
+                            </div>
+                        </div>
+                        <div class="trip-add-item">
+                            <div class="trip-img">
+                                <img class="trip-img1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/04/0e/3c/caption.jpg?w=500&h=300&s=1" alt="">
+                                <div class="trip-img2-father">
+                                    <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                </div>
+                            </div>
+                            <div class="trip-mes1">
+                                <p class="trip-des">From <span class="trip-des1">Tripadvisor</span></p>
+                                <p class="trip-title">6 LGBTQIA+ tours to check out</p>
+                            </div>
+                        </div>
+                        <div class="trip-add-item">
+                            <div class="trip-img">
+                                <img class="trip-img1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/03/ff/34/caption.jpg?w=500&h=300&s=1" alt="">
+                                <div class="trip-img2-father">
+                                    <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                </div>
+                            </div>
+                            <div class="trip-mes1">
+                                <p class="trip-des">From <span class="trip-des1">Tripadvisor</span></p>
+                                <p class="trip-title">It's time for an adrenaline-fueled escape to Austin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trip2">
+                <div class="grid">
+                    <p class="trip-mes">Top experiences on Tripadvisor</p>
+                    <div class="trip-add1">
+                        <input type="checkbox" name="" id="btn-left">
+                        <input type="checkbox" name="" id="btn-right">
+                        <label for="btn-left" class="controls left">
+                            <img class="controls-img" src="https://cdn-icons-png.flaticon.com/128/507/507257.png" alt="">
+                        </label>
+                        <label for="btn-right" class="controls right">
+                            <img class="controls-img" src="https://cdn-icons-png.flaticon.com/128/271/271226.png" alt="">
+                        </label>
+                        <div class="col1">
+                            <label for="btn-left" class="c1">
+                                <div class="trip-add-item height">
+                                    <div class="trip-img">
+                                        <img class="trip-img1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/60/80/91/caption.jpg?w=600&h=600&s=1" alt="">
+                                        <div class="trip-img2-father">
+                                            <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="trip-mes1 text-align">
+                                        <span class="trip-mes1-til">Amsterdam Open Boat Canal Cruise - Live Guide - from Anne Frank House</span>
+                                        <span class="trip-mes1-sale">
+                                            <span class="trip-mes1-sale1">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                            </span>
+                                            <span class="trip-mes1-rating">12,076</span>
+                                        </span>
+                                        <span class="trip-mes1-price">from $20 per adult</span>
+                                    </div>
+                                </div>
+                                <div class="trip-add-item height">
+                                    <div class="trip-img">
+                                        <img class="trip-img1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/bb/da/be/caption.jpg?w=600&h=600&s=1" alt="">
+                                        <div class="trip-img2-father">
+                                            <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="trip-mes1 text-align">
+                                        <span class="trip-mes1-til">Dubai: Red Dunes Quad Bike, Sandsurf, Camels & BBQ at Al Khayma Camp™️</span>
+                                        <span class="trip-mes1-sale">
+                                            <span class="trip-mes1-sale1">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                            </span>
+                                            <span class="trip-mes1-rating">5,343</span>
+                                        </span>
+                                        <span class="trip-mes1-price">from $86 per adult</span>
+                                    </div>
+                                </div>
+                                <div class="trip-add-item height">
+                                    <div class="trip-img">
+                                        <img class="trip-img1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/60/ce/b5/caption.jpg?w=600&h=600&s=1" alt="">
+                                        <div class="trip-img2-father">
+                                            <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="trip-mes1 text-align">
+                                        <span class="trip-mes1-til">Tour of North Shore (70%) and Sightseeing (30%)</span>
+                                        <span class="trip-mes1-sale">
+                                            <span class="trip-mes1-sale1">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                            </span>
+                                            <span class="trip-mes1-rating">3,305</span>
+                                        </span>
+                                        <span class="trip-mes1-price">from $139 per adult</span>
+                                    </div>
+                                </div>
+                                <div class="trip-add-item height">
+                                    <div class="trip-img">
+                                        <img class="trip-img1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/0a/8c/e0/caption.jpg?w=600&h=600&s=1" alt="">
+                                        <div class="trip-img2-father">
+                                            <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="trip-mes1 text-align">
+                                        <span class="trip-mes1-til">Aruba Natural Pool and Indian Cave Jeep Safari</span>
+                                        <span class="trip-mes1-sale">
+                                            <span class="trip-mes1-sale1">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                            </span>
+                                            <span class="trip-mes1-rating">3,078</span>
+                                        </span>
+                                        <span class="trip-mes1-price">from $107 per adult</span>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="col2">
+                            <label for="btn-right" class="c2">
+                                <div class="trip-add-item height">
+                                    <div class="trip-img">
+                                        <img class="trip-img1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/bb/da/be/caption.jpg?w=600&h=600&s=1" alt="">
+                                        <div class="trip-img2-father">
+                                            <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="trip-mes1 text-align">
+                                        <span class="trip-mes1-til">Amsterdam Open Boat Canal Cruise - Live Guide - from Anne Frank House</span>
+                                        <span class="trip-mes1-sale">
+                                            <span class="trip-mes1-sale1">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                            </span>
+                                            <span class="trip-mes1-rating">5,343</span>
+                                        </span>
+                                        <span class="trip-mes1-price">from $86 per adult</span>
+                                    </div>
+                                </div>
+                                <div class="trip-add-item height">
+                                    <div class="trip-img">
+                                        <img class="trip-img1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/bb/da/be/caption.jpg?w=600&h=600&s=1" alt="">
+                                        <div class="trip-img2-father">
+                                            <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="trip-mes1 text-align">
+                                        <span class="trip-mes1-til">Amsterdam Open Boat Canal Cruise - Live Guide - from Anne Frank House</span>
+                                        <span class="trip-mes1-sale">
+                                            <span class="trip-mes1-sale1">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                            </span>
+                                            <span class="trip-mes1-rating">5,343</span>
+                                        </span>
+                                        <span class="trip-mes1-price">from $86 per adult</span>
+                                    </div>
+                                </div>
+                                <div class="trip-add-item height">
+                                    <div class="trip-img">
+                                        <img class="trip-img1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/bb/da/be/caption.jpg?w=600&h=600&s=1" alt="">
+                                        <div class="trip-img2-father">
+                                            <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="trip-mes1 text-align">
+                                        <span class="trip-mes1-til">Amsterdam Open Boat Canal Cruise - Live Guide - from Anne Frank House</span>
+                                        <span class="trip-mes1-sale">
+                                            <span class="trip-mes1-sale1">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                            </span>
+                                            <span class="trip-mes1-rating">5,343</span>
+                                        </span>
+                                        <span class="trip-mes1-price">from $86 per adult</span>
+                                    </div>
+                                </div>
+                                <div class="trip-add-item height">
+                                    <div class="trip-img">
+                                        <img class="trip-img1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/bb/da/be/caption.jpg?w=600&h=600&s=1" alt="">
+                                        <div class="trip-img2-father">
+                                            <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="trip-mes1 text-align">
+                                        <span class="trip-mes1-til">Amsterdam Open Boat Canal Cruise - Live Guide - from Anne Frank House</span>
+                                        <span class="trip-mes1-sale">
+                                            <span class="trip-mes1-sale1">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/148/148767.png" alt="">
+                                            </span>
+                                            <span class="trip-mes1-rating">5,343</span>
+                                        </span>
+                                        <span class="trip-mes1-price">from $86 per adult</span>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="travel-banner">
+                <div class="grid">
+                    <div class="banner">
+                        <div class="banner-mes">
+                            <h3>Get out there</h3>
+                            <p>Best of the Best tours, attractions & activities you won't want to miss.</p>
+                            <button class="btn btn-banner">See the list</button>
+                        </div>
+                        <div class="banner-img">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/f7/1d/4d/caption.jpg?w=1000&h=-1&s=1" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trip-address">
+                <div class="grid">
+                    <p class="trip-mes">Top destinations for your next vacation</p>
+                    <div class="trip-add">
+                        <div class="trip-add-item flex1">
+                            <div class="trip-img ">
+                                <img class="trip-img1" src="https://images.unsplash.com/photo-1552374516-0fffe5103f4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGElMjBsb25nJTIwYmF5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="">
+                                <div class="trip-img2-father">
+                                    <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                </div>
+                                <div class="address-trip">
+                                    Ha Long Bay, Quang Ninh
+                                </div>
+                            </div>
+                            <div class="trip-img">
+                                <img class="trip-img1" src="https://images.unsplash.com/photo-1561350277-a7f7c219522f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHRyYW5nJTIwYW4lMjBuaW5oJTIwYmluaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="">
+                                <div class="trip-img2-father">
+                                    <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                </div>
+                                <div class="address-trip">
+                                    Trang An, Ninh Binh
+                                </div>
+                            </div>
+                            <div class="trip-img">
+                                <img class="trip-img1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/cf/f9/eb/caption.jpg?w=600&h=600&s=1&cx=941&cy=299&chk=v1_18cfa51ea9b832b15689" alt="">
+                                <div class="trip-img2-father">
+                                    <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                </div>
+                                <div class="address-trip">
+                                    Yellowstone National Park, WY
+                                </div>
+                            </div>
+                            <div class="trip-img">
+                                <img class="trip-img1" src="https://images.unsplash.com/photo-1545511062-39910986b73e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWF1c29sZXVtJTIwaG8lMjBjaGklMjBtaW5ofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="">
+                                <div class="trip-img2-father">
+                                    <img class="trip-img2" src="https://cdn-icons-png.flaticon.com/128/151/151910.png" alt="">
+                                </div>
+                                <div class="address-trip">
+                                    Ho Chi Minh Mausoleum, Ha Noi
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="travel-img">
+                <div class="travel-img__big">
+                    <div class="travel-img__big-mes">
+                        <img src="https://static.tacdn.com/img2/travelers_choice/TC_logomark_solid_cream.svg" alt="">
+                        <h3>Travelers' Choice Best of the Best</h3>
+                        <button class="btn btn-banner">See the winners</button>
+                    </div>
+                    <img class="travel-img__big-mes-img" src="https://static.tacdn.com/img2/brand/feed/tc_cards_desktop.jpeg" alt="">
+                </div>
+            </div>
+            <div class="trip--address">
+                <div class="grid">
+                    <h2 class="trip--address__title">Trending in Travel</h2>
+                    <input type="checkbox" name="" id="add1">
+                    <input type="checkbox" name="" id="add2">
+                    <input type="checkbox" name="" id="add3">
+                    <div class="trip--address-btn">
+                        <label class="s" for="add1">Places to Go</label>
+                        <label class="s" for="add2">Things to Do</label>
+                        <label class="s" for="add3">Places to Stay</label>
+                    </div>
+                    <div class="col">
+                        <div class="trip--address-select s1">
+                            <div class="c">
+                                <div class="trip--address-select-item">
+                                    <ul class="trip--address-select-list">
+                                        <li class="trip--address-select-list-item">Las Vegas Hotels</li>
+                                        <li class="trip--address-select-list-item">Walt Disney World Hotels</li>
+                                        <li class="trip--address-select-list-item">Branson Hotels</li>
+                                        <li class="trip--address-select-list-item">Amalfi Coast Hotels</li>
+                                        <li class="trip--address-select-list-item">Jackson Hotels</li>
+                                    </ul>
+                                </div>
+                                <div class="trip--address-select-item">
+                                    <ul class="trip--address-select-list">
+                                        <li class="trip--address-select-list-item">Las Vegas Hotels</li>
+                                        <li class="trip--address-select-list-item">Walt Disney World Hotels</li>
+                                        <li class="trip--address-select-list-item">Branson Hotels</li>
+                                        <li class="trip--address-select-list-item">Amalfi Coast Hotels</li>
+                                        <li class="trip--address-select-list-item">Jackson Hotels</li>
+                                    </ul>
+                                </div>
+                                <div class="trip--address-select-item">
+                                    <ul class="trip--address-select-list">
+                                        <li class="trip--address-select-list-item">Las Vegas Hotels</li>
+                                        <li class="trip--address-select-list-item">Walt Disney World Hotels</li>
+                                        <li class="trip--address-select-list-item">Branson Hotels</li>
+                                        <li class="trip--address-select-list-item">Amalfi Coast Hotels</li>
+                                        <li class="trip--address-select-list-item">Jackson Hotels</li>
+                                    </ul>
+                                </div>
+                                <div class="trip--address-select-item">
+                                    <ul class="trip--address-select-list">
+                                        <li class="trip--address-select-list-item">Las Vegas Hotels</li>
+                                        <li class="trip--address-select-list-item">Walt Disney World Hotels</li>
+                                        <li class="trip--address-select-list-item">Branson Hotels</li>
+                                        <li class="trip--address-select-list-item">Amalfi Coast Hotels</li>
+                                        <li class="trip--address-select-list-item">Jackson Hotels</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trip--address-select s2">
+                            <div class="c">
+                                <div class="trip--address-select-item">
+                                    <ul class="trip--address-select-list">
+                                        <li class="trip--address-select-list-item">Las Vegas Hotels</li>
+                                        <li class="trip--address-select-list-item">Walt Disney World Hotels</li>
+                                        <li class="trip--address-select-list-item">Branson Hotels</li>
+                                        <li class="trip--address-select-list-item">Amalfi Coast Hotels</li>
+                                        <li class="trip--address-select-list-item">Jackson Hotels</li>
+                                    </ul>
+                                </div>
+                                <div class="trip--address-select-item">
+                                    <ul class="trip--address-select-list">
+                                        <li class="trip--address-select-list-item">Las Vegas Hotels</li>
+                                        <li class="trip--address-select-list-item">Walt Disney World Hotels</li>
+                                        <li class="trip--address-select-list-item">Branson Hotels</li>
+                                        <li class="trip--address-select-list-item">Amalfi Coast Hotels</li>
+                                        <li class="trip--address-select-list-item">Jackson Hotels</li>
+                                    </ul>
+                                </div>
+                                <div class="trip--address-select-item">
+                                    <ul class="trip--address-select-list">
+                                        <li class="trip--address-select-list-item">Las Vegas Hotels</li>
+                                        <li class="trip--address-select-list-item">Walt Disney World Hotels</li>
+                                        <li class="trip--address-select-list-item">Branson Hotels</li>
+                                        <li class="trip--address-select-list-item">Amalfi Coast Hotels</li>
+                                        <li class="trip--address-select-list-item">Jackson Hotels</li>
+                                    </ul>
+                                </div>
+                                <div class="trip--address-select-item">
+                                    <ul class="trip--address-select-list">
+                                        <li class="trip--address-select-list-item">Las Vegas Hotels</li>
+                                        <li class="trip--address-select-list-item">Walt Disney World Hotels</li>
+                                        <li class="trip--address-select-list-item">Branson Hotels</li>
+                                        <li class="trip--address-select-list-item">Amalfi Coast Hotels</li>
+                                        <li class="trip--address-select-list-item">Jackson Hotels</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trip--address-select s3">
+                            <div class="c">
+                                <div class="trip--address-select-item">
+                                    <ul class="trip--address-select-list">
+                                        <li class="trip--address-select-list-item">Las Vegas Hotels</li>
+                                        <li class="trip--address-select-list-item">Walt Disney World Hotels</li>
+                                        <li class="trip--address-select-list-item">Branson Hotels</li>
+                                        <li class="trip--address-select-list-item">Amalfi Coast Hotels</li>
+                                        <li class="trip--address-select-list-item">Jackson Hotels</li>
+                                    </ul>
+                                </div>
+                                <div class="trip--address-select-item">
+                                    <ul class="trip--address-select-list">
+                                        <li class="trip--address-select-list-item">Las Vegas Hotels</li>
+                                        <li class="trip--address-select-list-item">Walt Disney World Hotels</li>
+                                        <li class="trip--address-select-list-item">Branson Hotels</li>
+                                        <li class="trip--address-select-list-item">Amalfi Coast Hotels</li>
+                                        <li class="trip--address-select-list-item">Jackson Hotels</li>
+                                    </ul>
+                                </div>
+                                <div class="trip--address-select-item">
+                                    <ul class="trip--address-select-list">
+                                        <li class="trip--address-select-list-item">Las Vegas Hotels</li>
+                                        <li class="trip--address-select-list-item">Walt Disney World Hotels</li>
+                                        <li class="trip--address-select-list-item">Branson Hotels</li>
+                                        <li class="trip--address-select-list-item">Amalfi Coast Hotels</li>
+                                        <li class="trip--address-select-list-item">Jackson Hotels</li>
+                                    </ul>
+                                </div>
+                                <div class="trip--address-select-item">
+                                    <ul class="trip--address-select-list">
+                                        <li class="trip--address-select-list-item">Las Vegas Hotels</li>
+                                        <li class="trip--address-select-list-item">Walt Disney World Hotels</li>
+                                        <li class="trip--address-select-list-item">Branson Hotels</li>
+                                        <li class="trip--address-select-list-item">Amalfi Coast Hotels</li>
+                                        <li class="trip--address-select-list-item">Jackson Hotels</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trip-footer">
+                <div class="grid">
+                    <div class="footer-top">
+                       <div class="footer-top-left ">
+                        <h4 class=" trip--address-select-list-item cursor">About Tripadvisor</h4>
+                            <ul class="pc-t1">
+                                <li class="trip--address-select-list-item">About Us</li>
+                                <li class="trip--address-select-list-item">Press</li>
+                                <li class="trip--address-select-list-item">Resources and Policies</li>
+                                <li class="trip--address-select-list-item">Careers</li>
+                                <li class="trip--address-select-list-item">Investor Relations</li>
+                                <li class="trip--address-select-list-item">Trust & Safety</li>
+                                <li class="trip--address-select-list-item">Contact us</li>
+                            </ul>
+                       </div>
+                       <div class="footer-top-left  ">
+                            <h4 class=" trip--address-select-list-item cursor">Explore</h4>
+                            <ul class="pc-t1">
+                                <li class="trip--address-select-list-item">Write a review</li>
+                                <li class="trip--address-select-list-item"> Add a Place</li>
+                                <li class="trip--address-select-list-item">  Join </li>
+                                <li class="trip--address-select-list-item"> Travelers' Choice</li>
+                                <li class="trip--address-select-list-item">Insurance</li>
+                                <li class="trip--address-select-list-item">    GreenLeaders</li>
+                                <li class="trip--address-select-list-item"> Blog</li>
+                                <li class="trip--address-select-list-item">Help Center</li>
+                                <li class="trip--address-select-list-item"> Tripadvisor Plus</li>
+                                <li class="trip--address-select-list-item"> Travel Articles</li>
+                            </ul>
+                        </div>
+                        <div class="footer-top-left ">
+                            <h4 class=" trip--address-select-list-item cursor">Do Business With Us</h4 >
+                            <ul class="pc-t1">
+                                <li class="trip--address-select-list-item"> Owners</li>
+                                <li class="trip--address-select-list-item">Business Advantage</li>
+                                <li class="trip--address-select-list-item">Sponsored Placements</li>
+                                <li class="trip--address-select-list-item">Advertise with Us</li>
+                                <li class="trip--address-select-list-item">Access our Content API</li>
+                                <li class="trip--address-select-list-item">Become an Affiliate</li>
+                            </ul>
+                        </div>
+                        <div class="footer-top-right">
+                            <h4 class=" trip--address-select-list-item cursor">Tripadvisor Sites</h4>
+                            <ul class="pc-t1">
+                                <span class="trip--address-select-list-item-1">Discover your dream destination with 
+                                    <li class="trip--address-select-list-item"> Jetsetter</li>
+                                </span>
+                                <span class="trip--address-select-list-item-1">Book the best restaurants with 
+                                    <li class="trip--address-select-list-item"> TheFork</li>
+                                </span>
+                                <span class="trip--address-select-list-item-1"> Book tours and attraction tickets on 
+                                    <li class="trip--address-select-list-item"> Viator</li>
+                                </span>
+                                <span class="trip--address-select-list-item-1">Read cruise reviews on Cruise 
+                                    <li class="trip--address-select-list-item">Critic</li>
+                                </span>
+                                <span class="trip--address-select-list-item-1">Get airline seating charts on 
+                                    <li class="trip--address-select-list-item">Seat Guru</li>
+                                </span>
+                                <span class="trip--address-select-list-item-1">Find vacation rentals on 
+                                    <li class="trip--address-select-list-item">FlipKey</li>
+                                </span>
+                                <span class="trip--address-select-list-item-1">Search for holiday rentals on 
+                                    <li class="trip--address-select-list-item"> Holiday Lettings</li>
+                                </span>
+                                <span class="trip--address-select-list-item-1">Find a vacation home on 
+                                    <li class="trip--address-select-list-item"> Vacation Home Rentals</li>
+                                </span>
+                                <span class="trip--address-select-list-item-1">Plan and book your next trip with 
+                                    <li class="trip--address-select-list-item"> Reco Trip Designers</li>
+                                </span>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="footer-bottom-left">
+                            <div class="footer-bottom-left-top">
+                                <img src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg" alt="">
+                                <div class="footer-bottom-left-top-right">
+                                    <span>© 2022 TripAdvisor LLC All rights reserved.</span>
+                                    <ul>
+                                        <li class="footer-bottom-left-top-right-item" >Terms of Use</li>
+                                        <li class="footer-bottom-left-top-right-item">Privacy and Cookies Statement</li>
+                                        <li class="footer-bottom-left-top-right-item">Cookie consent</li>
+                                        <li class="footer-bottom-left-top-right-item">Site Map</li>
+                                        <li class="footer-bottom-left-top-right-item">How the site works</li>
+                                        <li class="footer-bottom-left-top-right-item">Contact us</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="footer-bottom-left-bottom">
+                                This is the version of our website addressed to speakers of English in the United States. If you are a resident of another country or region, please select the appropriate version of Tripadvisor for your country or region in the drop-down menu. more
+                            </span>
+                        </div>
+                        <div class="footer-bottom-right">
+                            <div class="footer-bottom-right-top">
+                                <select class="" name="" id="select-1">
+                                    <option class="footer-bottom-right-top-option" value="">$ USD</option>
+                                    <option class="footer-bottom-right-top-option" value="">$  U.S. Dollars</option>
+                                    <option class="footer-bottom-right-top-option" value="">£  British Pounds</option>
+                                    <option class="footer-bottom-right-top-option" value=""> €  Euros</option>
+                                    <option class="footer-bottom-right-top-option" value=""> CA$  Canadian Dollars</option>
+                                    <option class="footer-bottom-right-top-option" value="">CHF  Swiss Francs</option>
+                                    <option class="footer-bottom-right-top-option" value="">A$  Australian Dollars</option>
+                                    <option class="footer-bottom-right-top-option" value="">¥  Japanese Yen</option>
+                                    <option class="footer-bottom-right-top-option" value="">CN¥  Chinese Yuan</option>
+                                    <option class="footer-bottom-right-top-option" value="">₹  Indian Rupees</option>
+                                    <option class="footer-bottom-right-top-option" value="">R$  Brazilian Real</option>
+                                    <option class="footer-bottom-right-top-option" value="">HK$  Hong Kong Dollars</option>
+                                    <option class="footer-bottom-right-top-option" value=""> RUB  Russian Rubles</option>
+                                    <option class="footer-bottom-right-top-option" value="">SEK  Swedish Krona</option>
+                                    <option class="footer-bottom-right-top-option" value=""> TRY  Turkish Lira</option>
+                                    <option class="footer-bottom-right-top-option" value=""> DKK  Danish Krone</option>
+                                    <option class="footer-bottom-right-top-option" value="">MX$  Mexican Peso</option>
+                                    <option class="footer-bottom-right-top-option" value="">NT$  New Taiwan Dollars</option>
+                                    <option class="footer-bottom-right-top-option" value="">NOK  Norwegian Krone</option>
+                                    <option class="footer-bottom-right-top-option" value="">PLN  Polish Zloty</option>
+                                    <option class="footer-bottom-right-top-option" value="">AED  UAE Dirham</option>
+                                    <option class="footer-bottom-right-top-option" value="">AFN  Afghan Afghanis</option>
+                                    <option class="footer-bottom-right-top-option" value="">ALL  Albanian Lek</option>
+                                    <option class="footer-bottom-right-top-option" value="">AMD  Armenian Dram</option>
+                                    <option class="footer-bottom-right-top-option" value="">VND Vietnam Dong</option>
+                                </select>
+                                <select class="" name="" id="select-1">
+                                    <option class="footer-bottom-right-top-option" value="">United States</option>
+                                    <option class="footer-bottom-right-top-option" value="">Canada (English)</option>
+                                    <option class="footer-bottom-right-top-option" value="">Canada (français)</option>
+                                    <option class="footer-bottom-right-top-option" value=""> Brasil</option>
+                                    <option class="footer-bottom-right-top-option" value="">México</option>
+                                    <option class="footer-bottom-right-top-option" value="">Argentina</option>
+                                    <option class="footer-bottom-right-top-option" value="">Chile</option>
+                                    <option class="footer-bottom-right-top-option" value=""> Colombia</option>
+                                    <option class="footer-bottom-right-top-option" value="">Perú</option>
+                                    <option class="footer-bottom-right-top-option" value=""> Venezuela</option>
+                                    <option class="footer-bottom-right-top-option" value="">United Kingdom</option>
+                                    <option class="footer-bottom-right-top-option" value="">Italia</option>
+                                    <option class="footer-bottom-right-top-option" value="">España</option>
+                                    <option class="footer-bottom-right-top-option" value="">Deutschland</option>
+                                    <option class="footer-bottom-right-top-option" value="">France</option>
+                                    <option class="footer-bottom-right-top-option" value="">Sverige</option>
+                                    <option class="footer-bottom-right-top-option" value="">Nederland</option>
+                                    <option class="footer-bottom-right-top-option" value="">Vietnam</option>
+                                </select>
+                            </div>
+                            <div class="footer-bottom-right-bottom">
+                                <img class="footer-bottom-right-bottom-img" src="https://cdn-icons-png.flaticon.com/128/1384/1384005.png" alt="">
+                                <img class="footer-bottom-right-bottom-img" src="https://cdn-icons-png.flaticon.com/128/733/733635.png" alt="">
+                                <img class="footer-bottom-right-bottom-img" src="https://cdn-icons-png.flaticon.com/128/37/37929.png" alt="">
+                                <img class="footer-bottom-right-bottom-img" src="https://cdn-icons.flaticon.com/png/128/717/premium/717392.png?token=exp=1660055421~hmac=14403f7ff09fb91f959ad266f489e363" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
